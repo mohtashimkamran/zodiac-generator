@@ -1,9 +1,9 @@
-from Controllers import mombassador
+from Controllers import routes
 
 V1RoutesDict ={
-    '/test': mombassador.test,
+    '/test': routes.test,
 }
 
 V1RoutesMethodsDict = {
-    mombassador.test: ['GET']
+    routes.test: ['GET']
 }
