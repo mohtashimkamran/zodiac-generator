@@ -1,2 +1,2 @@
 def test():
-    return "sucesss"
+    return "sucessss"
